@@ -3,7 +3,7 @@ class Condition {
 		this.condition = condition;
 	}
 
-	getCardtext() {
+	getCardText() {
 		// Clear
 		if (this.condition === "Clear") {
 			return "The Stick looks Fabulous today. It must be Clear Skies";
