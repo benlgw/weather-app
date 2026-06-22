@@ -13,7 +13,7 @@ class Wind {
 
 		// Medium Wind
 		if (this.windSpeed <= 10) {
-			return `The Stick is Leaning ${this.getWindDirection()}. ${this.getGustText}`;
+			return `The Stick is Leaning ${this.getWindDirection()}. ${this.getGustText()}`;
 		}
 
 		// High Wind
