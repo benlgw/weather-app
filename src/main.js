@@ -2,8 +2,6 @@ import "./reset.css";
 import "./style.css";
 
 const API_KEY = "GRZT3UE6Q5K6D9UC6FSWX8RAR";
-// const URL =
-// 	"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/[LOCATION_HERE]?unitGroup=uk&include=current&key=[API_KEY_HERE]&contentType=json";
 const URL =
 	"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/[LOCATION_HERE]?unitGroup=uk&include=current&key=[API_KEY_HERE]&contentType=json";
 
