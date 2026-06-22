@@ -14,3 +14,17 @@ async function getWeather(location) {
 	const weatherData = await response.json();
 	return weatherData;
 }
+
+function createWeatherObject(weatherData) {
+	const currentConidtions = weatherData.currentConditions;
+	return {
+		location: weatherData.address,
+		temperature: currentConidtions.temp,
+		feelsLike: currentConidtions.feelslike,
+		coniditions: currentConidtions.conditions,
+		coniditionsIcon: currentConidtions.icon,
+		windSpeed: currentConidtions.windspeed,
+		windGusts: currentConidtions.windGust,
+		windDirection: currentConidtions.winddir,
+	};
+}
