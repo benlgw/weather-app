@@ -36,7 +36,7 @@ header {
 	font-family: "Aladin";
 	font-size: xx-large;
 	letter-spacing: 10px;
-	color: rgb(255, 255, 255, 0.9);
+	color: var(--transparent-white);
 	text-shadow: var(--transparent-white) 0px 0px 50px;
 }
 
