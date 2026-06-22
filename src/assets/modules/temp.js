@@ -1,7 +1,7 @@
 class Temp {
 	constructor(temperature, feelsLike) {
-		this.temperature = temperature;
-		this.feelsLike = feelsLike;
+		this.temperature = Math.floor(temperature);
+		this.feelsLike = Math.floor(feelsLike);
 	}
 
 	getCardText() {
