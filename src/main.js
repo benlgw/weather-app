@@ -28,3 +28,10 @@ function createWeatherObject(weatherData) {
 		windDirection: currentConidtions.winddir,
 	};
 }
+
+async function main() {
+	const weatherData = await getWeather("Manchester");
+	const weatherDataObject = await createWeatherObject(weatherData);
+}
+
+main();
