@@ -35,7 +35,7 @@ class Wind {
 
 		// Large Gust
 		if (this.windGusts > 10) {
-			return `It occasionally gets thrown ${this.getWindDirection}`;
+			return `It occasionally gets thrown ${this.getWindDirection()}`;
 		}
 	}
 
